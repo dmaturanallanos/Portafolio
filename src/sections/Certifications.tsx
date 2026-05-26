@@ -16,10 +16,10 @@ export function Certifications() {
           {certifications.map((item) => {
             const Icon = item.icon;
             return (
-              <Card key={item.title} className="transition duration-300 hover:-translate-y-1 hover:border-violet-300/35">
+              <Card key={item.title} className="transition duration-300 hover:-translate-y-1 hover:border-red-500/35">
                 <CardContent className="p-6">
-                  <div className="mb-5 grid h-12 w-12 place-items-center rounded-lg border border-violet-300/20 bg-violet-300/[0.07]">
-                    <Icon className="text-violet-100" size={22} />
+                  <div className="mb-5 grid h-12 w-12 place-items-center rounded-lg border border-red-500/20 bg-red-500/[0.07]">
+                    <Icon className="text-red-100" size={22} />
                   </div>
                   <h3 className="font-display text-lg font-semibold text-white">{item.title}</h3>
                   <p className="mt-3 text-sm leading-7 text-muted-foreground">{item.detail}</p>

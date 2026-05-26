@@ -40,8 +40,8 @@ export default {
         display: ["Space Grotesk", "Inter", "ui-sans-serif", "system-ui"],
       },
       boxShadow: {
-        glow: "0 0 34px rgba(56, 189, 248, 0.16)",
-        violet: "0 0 44px rgba(124, 58, 237, 0.22)",
+        glow: "0 0 34px rgba(239, 68, 68, 0.14)",
+        redglow: "0 0 44px rgba(153, 27, 27, 0.2)",
       },
       keyframes: {
         aurora: {

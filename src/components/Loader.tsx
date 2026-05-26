@@ -9,13 +9,13 @@ export function Loader() {
       transition={{ delay: 0.7, duration: 0.5 }}
     >
       <div className="relative h-16 w-16">
-        <div className="absolute inset-0 rounded-full border border-cyan-300/20" />
+        <div className="absolute inset-0 rounded-full border border-red-500/20" />
         <motion.div
-          className="absolute inset-0 rounded-full border-2 border-transparent border-t-cyan-300"
+          className="absolute inset-0 rounded-full border-2 border-transparent border-t-red-500"
           animate={{ rotate: 360 }}
           transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
         />
-        <div className="absolute inset-4 rounded-full bg-cyan-300/20 blur-md" />
+        <div className="absolute inset-4 rounded-full bg-red-500/20 blur-md" />
       </div>
     </motion.div>
   );

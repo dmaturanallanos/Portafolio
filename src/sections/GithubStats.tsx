@@ -19,11 +19,11 @@ export function GithubStats() {
           <Card>
             <CardContent className="p-5">
               <div className="mb-4 flex items-center gap-3 text-white">
-                <LineChart className="text-cyan-200" size={20} />
+                <LineChart className="text-red-400" size={20} />
                 <h3 className="font-display text-lg font-semibold">Estadisticas generales</h3>
               </div>
               <img
-                src={`https://github-readme-stats.vercel.app/api?username=${githubUser}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=e0f2fe&text_color=94a3b8&icon_color=67e8f9`}
+                src={`https://github-readme-stats.vercel.app/api?username=${githubUser}&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=fee2e2&text_color=a3a3a3&icon_color=ef4444`}
                 alt="Estadisticas de GitHub"
                 className="min-h-44 w-full rounded-lg object-contain"
                 loading="lazy"
@@ -33,11 +33,11 @@ export function GithubStats() {
           <Card>
             <CardContent className="p-5">
               <div className="mb-4 flex items-center gap-3 text-white">
-                <Languages className="text-violet-100" size={20} />
+                <Languages className="text-red-100" size={20} />
                 <h3 className="font-display text-lg font-semibold">Lenguajes mas usados</h3>
               </div>
               <img
-                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUser}&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=e0f2fe&text_color=94a3b8`}
+                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUser}&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=fee2e2&text_color=a3a3a3`}
                 alt="Lenguajes mas usados en GitHub"
                 className="min-h-44 w-full rounded-lg object-contain"
                 loading="lazy"
@@ -48,11 +48,11 @@ export function GithubStats() {
         <Card className="mt-5">
           <CardContent className="p-5">
             <div className="mb-4 flex items-center gap-3 text-white">
-              <Github className="text-cyan-200" size={20} />
+              <Github className="text-red-400" size={20} />
               <h3 className="font-display text-lg font-semibold">Actividad reciente</h3>
             </div>
             <img
-              src={`https://github-readme-activity-graph.vercel.app/graph?username=${githubUser}&theme=react-dark&hide_border=true&bg_color=00000000&color=94a3b8&line=67e8f9&point=a78bfa`}
+              src={`https://github-readme-activity-graph.vercel.app/graph?username=${githubUser}&theme=high-contrast&hide_border=true&bg_color=00000000&color=a3a3a3&line=ef4444&point=f87171`}
               alt="Grafico de actividad de GitHub"
               className="min-h-48 w-full rounded-lg object-contain"
               loading="lazy"

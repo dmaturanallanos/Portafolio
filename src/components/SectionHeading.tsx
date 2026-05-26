@@ -9,7 +9,7 @@ type SectionHeadingProps = {
 export function SectionHeading({ eyebrow, title, description }: SectionHeadingProps) {
   return (
     <div className="mx-auto mb-12 max-w-3xl text-center">
-      <Badge className="mb-4 border-cyan-300/20 bg-cyan-300/[0.06] text-cyan-100">
+      <Badge className="mb-4 border-red-500/20 bg-red-500/[0.06] text-red-100">
         {eyebrow}
       </Badge>
       <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">

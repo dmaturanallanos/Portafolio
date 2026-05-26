@@ -17,10 +17,10 @@ export function About() {
           {aboutCards.map((item) => {
             const Icon = item.icon;
             return (
-              <Card key={item.title} className="group transition duration-300 hover:-translate-y-1 hover:border-cyan-300/30">
+              <Card key={item.title} className="group transition duration-300 hover:-translate-y-1 hover:border-red-500/30">
                 <CardHeader className="flex flex-row items-center gap-4">
-                  <div className="grid h-12 w-12 place-items-center rounded-lg border border-cyan-300/20 bg-cyan-300/[0.07]">
-                    <Icon className="text-cyan-200" size={22} />
+                  <div className="grid h-12 w-12 place-items-center rounded-lg border border-red-500/20 bg-red-500/[0.07]">
+                    <Icon className="text-red-400" size={22} />
                   </div>
                   <CardTitle>{item.title}</CardTitle>
                 </CardHeader>

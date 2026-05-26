@@ -35,7 +35,7 @@ export function Navbar() {
           className="font-display text-base font-semibold text-white"
           aria-label="Ir al inicio"
         >
-          Daniel<span className="text-cyan-300">.</span>Maturana
+          Daniel Maturana
         </button>
         <div className="hidden items-center gap-1 lg:flex">
           {navItems.map(([label, id]) => (

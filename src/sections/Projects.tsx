@@ -18,7 +18,7 @@ export function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group overflow-hidden rounded-lg border border-white/10 bg-card/70 shadow-violet backdrop-blur-xl transition duration-500 hover:-translate-y-2 hover:rotate-[0.4deg] hover:border-cyan-300/35"
+              className="group overflow-hidden rounded-lg border border-white/10 bg-card/70 shadow-redglow backdrop-blur-xl transition duration-500 hover:-translate-y-2 hover:rotate-[0.4deg] hover:border-red-500/35"
             >
               <div className="aspect-[16/10] overflow-hidden border-b border-white/10 bg-slate-950">
                 <img

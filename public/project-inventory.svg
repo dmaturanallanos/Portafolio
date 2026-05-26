@@ -5,8 +5,8 @@
   <rect x="105" y="205" width="210" height="220" rx="14" fill="#111827"/>
   <rect x="345" y="205" width="210" height="220" rx="14" fill="#111827"/>
   <rect x="585" y="205" width="210" height="220" rx="14" fill="#111827"/>
-  <rect x="138" y="245" width="144" height="72" rx="10" fill="#67e8f9" opacity=".25"/>
-  <rect x="378" y="245" width="144" height="72" rx="10" fill="#a78bfa" opacity=".25"/>
+  <rect x="138" y="245" width="144" height="72" rx="10" fill="#ef4444" opacity=".25"/>
+  <rect x="378" y="245" width="144" height="72" rx="10" fill="#f87171" opacity=".25"/>
   <rect x="618" y="245" width="144" height="72" rx="10" fill="#22c55e" opacity=".22"/>
   <rect x="138" y="348" width="128" height="12" rx="6" fill="#cbd5e1"/>
   <rect x="138" y="375" width="92" height="10" rx="5" fill="#64748b"/>
@@ -14,6 +14,6 @@
   <rect x="378" y="375" width="92" height="10" rx="5" fill="#64748b"/>
   <rect x="618" y="348" width="128" height="12" rx="6" fill="#cbd5e1"/>
   <rect x="618" y="375" width="92" height="10" rx="5" fill="#64748b"/>
-  <circle cx="742" cy="149" r="16" fill="#67e8f9"/>
+  <circle cx="742" cy="149" r="16" fill="#ef4444"/>
   <rect x="135" y="142" width="310" height="14" rx="7" fill="#cbd5e1"/>
 </svg>

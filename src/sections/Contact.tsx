@@ -52,11 +52,11 @@ export function Contact() {
                     <a
                       key={link.label}
                       href={link.href}
-                      target={link.href.startsWith("mailto:") ? undefined : "_blank"}
+                      target={link.href.startsWith("http") ? "_blank" : undefined}
                       rel="noreferrer"
-                      className="flex items-center gap-3 rounded-lg border border-white/10 bg-white/[0.04] p-4 text-sm text-muted-foreground transition duration-300 hover:-translate-y-1 hover:border-cyan-300/30 hover:text-white"
+                      className="flex items-center gap-3 rounded-lg border border-white/10 bg-white/[0.04] p-4 text-sm text-muted-foreground transition duration-300 hover:-translate-y-1 hover:border-red-500/30 hover:text-white"
                     >
-                      <Icon className="text-cyan-200" size={19} />
+                      <Icon className="text-red-400" size={19} />
                       {link.label}
                     </a>
                   );
@@ -72,7 +72,7 @@ export function Contact() {
                   <input
                     value={form.name}
                     onChange={(event) => setForm({ ...form, name: event.target.value })}
-                    className="h-12 rounded-md border border-white/10 bg-white/[0.05] px-4 text-foreground outline-none transition focus:border-cyan-300/50 focus:ring-2 focus:ring-cyan-300/20"
+                    className="h-12 rounded-md border border-white/10 bg-white/[0.05] px-4 text-foreground outline-none transition focus:border-red-500/50 focus:ring-2 focus:ring-red-500/20"
                     placeholder="Tu nombre"
                   />
                 </label>
@@ -82,7 +82,7 @@ export function Contact() {
                     type="email"
                     value={form.email}
                     onChange={(event) => setForm({ ...form, email: event.target.value })}
-                    className="h-12 rounded-md border border-white/10 bg-white/[0.05] px-4 text-foreground outline-none transition focus:border-cyan-300/50 focus:ring-2 focus:ring-cyan-300/20"
+                    className="h-12 rounded-md border border-white/10 bg-white/[0.05] px-4 text-foreground outline-none transition focus:border-red-500/50 focus:ring-2 focus:ring-red-500/20"
                     placeholder="correo@ejemplo.com"
                   />
                 </label>
@@ -91,7 +91,7 @@ export function Contact() {
                   <textarea
                     value={form.message}
                     onChange={(event) => setForm({ ...form, message: event.target.value })}
-                    className="min-h-36 resize-y rounded-md border border-white/10 bg-white/[0.05] px-4 py-3 text-foreground outline-none transition focus:border-cyan-300/50 focus:ring-2 focus:ring-cyan-300/20"
+                    className="min-h-36 resize-y rounded-md border border-white/10 bg-white/[0.05] px-4 py-3 text-foreground outline-none transition focus:border-red-500/50 focus:ring-2 focus:ring-red-500/20"
                     placeholder="Cuéntame sobre la oportunidad o proyecto..."
                   />
                 </label>
@@ -103,7 +103,7 @@ export function Contact() {
                   <p
                     className={cn(
                       "text-sm",
-                      status.includes("preparado") ? "text-cyan-100" : "text-muted-foreground",
+                      status.includes("preparado") ? "text-red-100" : "text-muted-foreground",
                     )}
                   >
                     {status}

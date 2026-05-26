@@ -18,14 +18,14 @@ export function Technologies() {
             return (
               <motion.div
                 key={tech.name}
-                className="group rounded-lg border border-white/10 bg-white/[0.045] p-5 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-cyan-300/30 hover:bg-white/[0.07]"
+                className="group rounded-lg border border-white/10 bg-white/[0.045] p-5 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-red-500/30 hover:bg-white/[0.07]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.035, duration: 0.45 }}
               >
                 <div className="flex items-center gap-4">
-                  <div className="grid h-11 w-11 place-items-center rounded-lg border border-violet-300/20 bg-violet-300/[0.07] text-cyan-100">
+                  <div className="grid h-11 w-11 place-items-center rounded-lg border border-red-500/20 bg-red-500/[0.07] text-red-100">
                     <Icon size={22} />
                   </div>
                   <div className="min-w-0 flex-1">
@@ -35,7 +35,7 @@ export function Technologies() {
                     </div>
                     <div className="mt-3 h-2 overflow-hidden rounded-full bg-white/10">
                       <motion.div
-                        className="h-full rounded-full bg-gradient-to-r from-cyan-300 to-violet-400"
+                        className="h-full rounded-full bg-gradient-to-r from-red-500 to-rose-700"
                         initial={{ width: 0 }}
                         whileInView={{ width: `${tech.level}%` }}
                         viewport={{ once: true }}

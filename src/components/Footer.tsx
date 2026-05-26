@@ -25,13 +25,13 @@ export function Footer() {
           ))}
         </div>
         <div className="flex gap-3">
-          <a className="text-muted-foreground transition hover:text-cyan-100" href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a className="text-muted-foreground transition hover:text-red-100" href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <Linkedin size={19} />
           </a>
-          <a className="text-muted-foreground transition hover:text-cyan-100" href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a className="text-muted-foreground transition hover:text-red-100" href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
             <Github size={19} />
           </a>
-          <a className="text-muted-foreground transition hover:text-cyan-100" href={`mailto:${profile.email}`} aria-label="Correo">
+          <a className="text-muted-foreground transition hover:text-red-100" href={`mailto:${profile.email}`} aria-label="Correo">
             <Mail size={19} />
           </a>
         </div>

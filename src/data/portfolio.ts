@@ -8,6 +8,7 @@ import {
   Linkedin,
   Mail,
   Network,
+  Phone,
   ShieldCheck,
   Sparkles,
   Terminal,
@@ -29,10 +30,11 @@ export const profile = {
   title: "Técnico en Informática con mención en Ciberseguridad",
   intro:
     "Profesional TI con foco en soporte técnico, desarrollo web, bases de datos y redes. Combino orientación al cliente, resolución de incidencias y criterio técnico para entregar soluciones claras y confiables.",
-  email: "daniel.maturana@email.com",
-  linkedin: "https://www.linkedin.com/in/daniel-maturana",
+  email: "dmaturanallanos@gmail.com",
+  phone: "+56984306620",
+  linkedin: "https://www.linkedin.com/in/daniel-maturana-llanos-b8891a397",
   github: "https://github.com/dmaturanallanos",
-  cv: "/Daniel-Maturana-CV.pdf",
+  cv: "/CVDanielMaturana.pdf",
 };
 
 export const navItems = [
@@ -110,30 +112,30 @@ export const technologies = [
 
 export const projects = [
   {
-    title: "Mesa de Ayuda TI",
+    title: "Centralix",
     description:
-      "Interfaz para gestion de tickets, priorizacion de incidentes y seguimiento de atenciones tecnicas.",
-    image: "/project-helpdesk.svg",
-    tags: ["React", "TypeScript", "Tailwind", "Soporte TI"],
-    demo: "#",
+      "Aplicacion web para gestionar comercios, operaciones, informacion administrativa y flujos de trabajo de negocios.",
+    image: "/project-centralix.svg",
+    tags: ["Gestion comercial", "Web App", "Dashboard", "Operaciones"],
+    demo: "https://centralix.infinityfreeapp.com/?i=1",
     repo: "https://github.com/dmaturanallanos?tab=repositories",
   },
   {
-    title: "Dashboard SQL Operativo",
+    title: "DashboardML",
     description:
-      "Panel para visualizar indicadores, consultas frecuentes y automatizaciones sobre datos operativos.",
-    image: "/project-dashboard.svg",
-    tags: ["SQL Server", "MySQL", "React", "Reportes"],
-    demo: "#",
+      "Dashboard personal para organizar tareas, revisar finanzas, visualizar indicadores y mantener control diario.",
+    image: "/project-dashboardml.svg",
+    tags: ["Dashboard", "Productividad", "Finanzas", "Tareas"],
+    demo: "https://dashboardml.netlify.app/",
     repo: "https://github.com/dmaturanallanos?tab=repositories",
   },
   {
-    title: "Inventario Tecnologico",
+    title: "Ariel Letters",
     description:
-      "Sistema web para registrar equipos, estados, mantenciones y asignaciones de usuarios internos.",
-    image: "/project-inventory.svg",
-    tags: ["PHP", "MySQL", "Bootstrap", "Git"],
-    demo: "#",
+      "Web informativa y visual para presentar trabajos de tatuaje, estilo artistico, servicios y contenido de marca personal.",
+    image: "/project-arielletters.svg",
+    tags: ["Sitio web", "Portafolio", "Marca personal", "Responsive"],
+    demo: "https://arielletters.netlify.app/",
     repo: "https://github.com/dmaturanallanos?tab=repositories",
   },
 ];
@@ -175,6 +177,7 @@ export const contactLinks = [
   { label: "LinkedIn", href: profile.linkedin, icon: Linkedin },
   { label: "GitHub", href: profile.github, icon: Github },
   { label: "Correo", href: `mailto:${profile.email}`, icon: Mail },
+  { label: "Telefono", href: `tel:${profile.phone}`, icon: Phone },
 ];
 
 export const servicePillars = [
