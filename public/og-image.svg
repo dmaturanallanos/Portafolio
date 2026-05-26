@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#05070f"/>
+      <stop offset=".55" stop-color="#111026"/>
+      <stop offset="1" stop-color="#071524"/>
+    </linearGradient>
+    <radialGradient id="c" cx=".75" cy=".2" r=".5">
+      <stop stop-color="#67e8f9" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#c)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".08">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M100 0v630M220 0v630M340 0v630M460 0v630M580 0v630M700 0v630M820 0v630M940 0v630M1060 0v630"/>
+  </g>
+  <text x="90" y="260" fill="#fff" font-family="Arial, sans-serif" font-size="72" font-weight="700">Daniel Maturana</text>
+  <text x="94" y="332" fill="#bae6fd" font-family="Arial, sans-serif" font-size="34">Tecnico en Informatica con mencion en Ciberseguridad</text>
+  <text x="96" y="400" fill="#94a3b8" font-family="Arial, sans-serif" font-size="26">Soporte TI · Desarrollo Web · Bases de Datos · Ciberseguridad</text>
+</svg>
